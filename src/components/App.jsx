@@ -1,11 +1,13 @@
 import React from 'react';
-import FriendList from './FriendList/FriendList';
+// import FriendList from './FriendList/FriendList';
 import Profile from './Profile/Profile';
 import Statistics from './Statistics/Statistics';
-import TransactionHistory from './TransactionHistory/TransactionHistory';
+// import TransactionHistory from './TransactionHistory/TransactionHistory';
 import user from '../state/user.json';
+import data from '../state/data.json';
 
-export const App = () => {
+export const App = ({ title = null }) => {  
+
   return (
     <>
       <Profile
@@ -15,9 +17,11 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <Statistics />
-      <FriendList />
-      <TransactionHistory />
+      <Statistics
+        title={title}
+        stats={data} />
+      {/* <FriendList />
+      <TransactionHistory /> */}
     </>
   );
 };
