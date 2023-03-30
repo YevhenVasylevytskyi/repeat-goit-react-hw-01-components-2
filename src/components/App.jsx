@@ -3,7 +3,7 @@ import FriendList from './FriendList/FriendList';
 import Profile from './Profile/Profile';
 import Statistics from './Statistics/Statistics';
 import TransactionHistory from './TransactionHistory/TransactionHistory';
-import user from '../data/user.json';
+import user from '../state/user.json';
 
 export const App = () => {
   return (
