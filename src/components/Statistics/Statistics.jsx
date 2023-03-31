@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from "prop-types";
 import style from './Statistics.module.css';
 
 function generateColor() {
@@ -29,6 +30,15 @@ const Statistics = ({
   </ul>
 </section>
   );
+};
+
+Statistics.propTypes = {
+  title: PropTypes.string,  
+  stats: PropTypes.exact({
+    id: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
+    percentage: PropTypes.number.isRequired,
+  }),
 };
 
 export default Statistics;
