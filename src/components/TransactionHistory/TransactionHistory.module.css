@@ -1,0 +1,16 @@
+.transactionHistory {
+    margin: 20px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.thh {
+    border: 3px solid black;
+
+    width: 150px;
+}
+
+.tbd {
+    border: 2px solid black;
+}

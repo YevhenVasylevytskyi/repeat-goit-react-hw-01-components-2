@@ -1,5 +1,7 @@
 .statistics {
     width: 280px;
+    margin: 20px;
+    background-color: grey;
 }
 
 .title {
