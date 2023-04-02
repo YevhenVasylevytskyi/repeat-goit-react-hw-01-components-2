@@ -1,8 +1,8 @@
 {
-  "name": "repeat-goit-react-hw-01-components",
+  "name": "repeat-goit-react-hw-01-components-without-deploy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://YevhenVasylevytskyi.github.io/repeat-goit-react-hw-01-components/",
+  "homepage": "https://YevhenVasylevytskyi.github.io/repeat-goit-react-hw-01-components-without-deploy/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
